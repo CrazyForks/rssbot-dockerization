@@ -1,6 +1,6 @@
 [package]
 name = "rssbot"
-version = "2.0.0-alpha.12"
+version = "2.0.0-alpha.13"
 authors = ["iovxw <iovxw@outlook.com>"]
 edition = "2021"
 
@@ -46,7 +46,7 @@ atomicwrites = "0.4"
 
 [dependencies.tbot]
 version = "0.6"
-git = "https://gitlab.com/SnejUgal/tbot.git"
+path = "tbot"
 default-features = false
 features = ["proxy"]
 
